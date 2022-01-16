@@ -1,0 +1,41 @@
+/** @format */
+
+/* common */
+
+/* reset css */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/* row style */
+.row {
+}
+/* collumn style */
+.collumn {
+}
+/* Set text lineweight to Bold */
+.bold-text {
+}
+
+/* specific */
+
+#header {
+	height: 48px;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 1px 4px grey;
+	color: #000;
+}
+
+#header li {
+	display: inline-block;
+}
+
+.left-nav {
+	float: left;
+}
+
+.right-nav {
+	float: right;
+}

@@ -1,0 +1,87 @@
+/** @format */
+
+/* common */
+
+/* reset css */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: #000;
+}
+
+/* row style */
+.row {
+}
+/* collumn style */
+.col {
+}
+
+.col-haft {
+}
+
+.col-third {
+}
+
+.align-center {
+}
+/* Set text lineweight to Bold */
+.bold-text {
+}
+
+.btn-hover {
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+/* specific */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start styling header */
+#header {
+	height: 56px;
+	width: 100%;
+	background-color: #fff;
+	background-clip: border-box;
+	box-shadow: 0 0 2px grey inset;
+	color: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#header li {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.header-wrapper {
+	padding: 20px 64px;
+}
+
+/* end styling header */
+
+/* start styling banner */
+#banner {
+	margin-top: 56px;
+	padding-top: 39.123607%;
+	width: 100%;
+
+	background-image: url(../img/banner/banner.png);
+	background-origin: border-box;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}

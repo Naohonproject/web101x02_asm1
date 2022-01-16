@@ -1,0 +1,259 @@
+/** @format */
+
+/* common */
+
+/* reset css */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: #000;
+}
+
+/* Set text lineweight to Bold */
+.bold-text {
+	font-weight: 640;
+}
+/* to set text to white color */
+.white-text {
+	color: #fff !important;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.box-padding {
+	padding: 40px 56px 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+/* specific */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body.home-body {
+	padding: 0 32px;
+}
+
+/* start styling header */
+#header {
+	height: 56px;
+	width: 100%;
+	background-color: #fff;
+	background-clip: border-box;
+	color: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 0 32px;
+}
+
+.header-wrapper {
+	height: 100%;
+	padding: 0 64px;
+}
+
+#header li:hover {
+	background-color: #282830;
+	cursor: pointer;
+}
+#header li:hover a {
+	color: #fff;
+}
+
+#header li {
+	display: inline-block;
+	margin-left: 16px;
+	line-height: 56px;
+	padding: 0 16px;
+}
+/* end styling header */
+
+/* start styling banner */
+#banner {
+	width: 100%;
+	margin-top: 56px;
+	padding-top: 39.123607%;
+	background: url(../img/banner/banner.png) top center / cover no-repeat;
+	background-origin: border-box;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.banner-text-content {
+	position: absolute;
+	top: 160px;
+	left: 56px;
+}
+
+#banner .content-heading,
+.content-desc {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#banner .content-heading {
+	font-size: 28px;
+}
+
+#banner .content-desc {
+	font-size: 24px;
+}
+/* end styling banner */
+
+/* start styling content */
+#content {
+	background-color: #e7e7e7;
+	width: 100%;
+	background-clip: border-box;
+}
+
+#content .content-heading h2,
+p {
+	padding: 4px 0;
+}
+
+#content .content-heading {
+	margin-bottom: 20px;
+}
+#content img {
+	display: block;
+	width: 100%;
+}
+
+#content .image-block {
+	float: left;
+	width: calc(100% / 3);
+	padding: 0 16px;
+}
+
+#content .content-images-table {
+	margin-left: -16px;
+	margin-right: -16px;
+}
+
+.image-block .first-img {
+	margin-bottom: 40px;
+}
+/* end styling content */
+
+/* start styling footer */
+#footer {
+	background-color: #ccc;
+}
+
+#footer .footer-block {
+	float: left;
+	width: calc(100% / 3);
+	padding: 0 16px;
+}
+
+#footer .footer-wrapper {
+	padding: 0 56px 56px 56px;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+
+#footer h3,
+p,
+a {
+	padding: 12px 0px;
+}
+
+#footer p {
+	line-height: 24px;
+}
+#footer a {
+	color: #1dabb8;
+}
+/* end styling footer */
+
+/* start styling login.html and sigin-up.html */
+
+.container {
+	background-color: #f0f2f5;
+	height: 100vh;
+	margin: 0;
+}
+.form-wrapper {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	background-color: #f6f7f2;
+	border-radius: 8px;
+	padding: 10px 0px 24px;
+}
+
+.form .logo {
+	padding: 20px 40px;
+	margin-bottom: 16px;
+}
+.form .input {
+	padding: 8px 24px;
+	margin-bottom: 24px;
+}
+
+.form .user-input {
+	padding: 18px 72px;
+}
+
+.form .user-input label {
+	display: inline-block;
+	float: left;
+}
+
+.form .user-input input {
+	display: inline-block;
+	float: right;
+}
+
+.btn-block .btn {
+	padding: 5px 0;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.btn-block .btn button {
+	font-size: 20px;
+	display: inline-block;
+	width: 400px;
+	height: 36px;
+	background-color: #1877f2;
+	border-radius: 8px;
+	border: solid 1px #ccc;
+}
+
+.btn-block a {
+	font-size: 12px;
+}
+
+.btn-block .forgotten {
+	margin-bottom: 40px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 16px;
+}
+
+.btn-block .Create-acc {
+	background-color: #92f22a;
+	background-clip: padding-box;
+	padding: 10px 56px;
+	border-radius: 8px;
+	margin-bottom: 40px;
+}

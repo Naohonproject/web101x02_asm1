@@ -1,0 +1,146 @@
+/** @format */
+
+/* common */
+
+/* reset css */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: #000;
+}
+
+/* row style */
+.row {
+}
+/* collumn style */
+.col {
+}
+
+.col-haft {
+}
+
+.col-third {
+	float: left;
+	width: calc(100% / 3);
+}
+
+.align-center {
+}
+/* Set text lineweight to Bold */
+.bold-text {
+}
+.white-text {
+	color: #fff !important;
+}
+.btn-hover {
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.box-padding {
+	padding-left: 56px;
+	padding-right: 56px;
+	padding-top: 40px;
+}
+/* specific */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	padding: 0 32px;
+}
+
+/* start styling header */
+#header {
+	height: 56px;
+	width: 100%;
+	background-color: #fff;
+	background-clip: border-box;
+	color: #000;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 0 32px;
+}
+
+.header-wrapper {
+	height: 100%;
+	padding: 0 64px;
+}
+
+#header li {
+	line-height: 56px;
+}
+
+#header li {
+	display: inline-block;
+	margin-left: 12px;
+}
+/* end styling header */
+
+/* start styling banner */
+#banner {
+	width: 100%;
+	margin-top: 56px;
+	padding-top: 39.123607%;
+	background: url(../img/banner/banner.png) top center / cover no-repeat;
+	background-origin: border-box;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.banner-text-content {
+	position: absolute;
+	top: 160px;
+	left: 56px;
+}
+
+#banner .content-heading,
+.content-desc {
+	margin-bottom: 8px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#banner .content-heading {
+	font-size: 28px;
+}
+
+#banner .content-desc {
+	font-size: 24px;
+}
+/* end styling banner */
+
+/* start styling content */
+#content {
+	background-color: #e7e7e7;
+	width: 100%;
+}
+
+#content .content-heading h2,
+p {
+	padding: 8px 0;
+}
+
+#content .content-heading {
+	margin-bottom: 20px;
+}
+#content img {
+	display: block;
+}
+
+/* end styling content */
